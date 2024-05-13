@@ -1,0 +1,1 @@
+yang dipelajari pada pertemuan ketiga disini kita mengenal lebih banyak tentang syntax php itu sendiri seperti penulisan function,looping,operator perbandigan,if else dan mengenal cara kerjanya.
