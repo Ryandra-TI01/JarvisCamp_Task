@@ -74,8 +74,14 @@ class Task extends Model
     //     ]
     // ];
     protected $table = 'task';
-    protected $fillable = ['name','deadline','status','description'];
+    protected $fillable = ['nama','deadline','status','description','status_id','categories_id' ];
 
+    public function statuses(){
+        return $this->hasOne(Status::class,'id','status_id');
+    }
+    public function categories(){
+        return $this->hasOne(Categories::class,'id','categories_id');
+    }
     // public static function getAll(){
     //     return self::$task;
     // }

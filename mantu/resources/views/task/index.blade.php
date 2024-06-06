@@ -8,7 +8,7 @@
       <div class="col-12 col-md-4 mt-3">
           <div class="card">
               <div class="card-body">
-                  <h4 class="card-title">{{ $task['name'] }}</h4>
+                  <h4 class="card-title">{{ $task['nama'] }}</h4>
                   <small>Deadline :{{ \Carbon\Carbon::parse($task['deadline'])->diffForHumans() }}</small><br>
                   <span class="badge bg-warning">{{ $task['status'] }}</span>
                   <p>{{ Str::limit($task['description'],35,'...') }}</p>

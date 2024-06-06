@@ -7,9 +7,29 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Dashboard
                 </a>
-                <a class="nav-link" href="/tasks">
+                <a class="nav-link" href="{{ route('tasks') }}">
                     <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                     Task
+                </a>
+                <a class="nav-link" href="{{ route('projects') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    Projects
+                </a>
+                <a class="nav-link" href="{{ route('tasks.list') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    CRUD Tabel Task
+                </a>
+                <a class="nav-link" href="{{ route('projects.list') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    CRUD Tabel projects
+                </a>
+                <a class="nav-link" href="{{ route('categories.list') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    CRUD Tabel Categories
+                </a>
+                <a class="nav-link" href="{{ route('status.list') }}">
+                    <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                    CRUD Tabel Status
                 </a>
             </div>
         </div>
